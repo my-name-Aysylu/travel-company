@@ -56,7 +56,7 @@ tours.forEach(function(tour){
   <div class="p-6">
   <div class="flex justify-between">
   <p class="text-gray-600">${tour.rating}</p>
-  <button class="TVResultNavButton TVButtonHover TVHotelInfoLikeNavButton TVStyleTheme2" id="heart">сердечко</button>
+  <button class="text-gray-600" id="heart">В избранное</button>
   </div>
   <p class="text-yellow-700">${tour.hotelName}</p>
   <div class="text-gray-500 mt-3">
@@ -92,7 +92,7 @@ async function fetchTour() {
   <div class="p-6">
   <div class="flex justify-between">
   <p class="text-gray-600">${tour.rating}</p>
-  <button id="heart">сердечко</button>
+  <button class="text-gray-600" id="heart">В избранное</button>
   </div>
   <p class="text-yellow-700">${tour.hotelName}</p>
   <div class="text-gray-500 mt-3">
